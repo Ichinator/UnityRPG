@@ -511,6 +511,7 @@ GameObject:
   - component: {fileID: 54207983923409162}
   - component: {fileID: 136608967125434332}
   - component: {fileID: 114546290570551052}
+  - component: {fileID: 114726185424254574}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -790,7 +791,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1657579508129558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 84.52534, y: 0.12898439, z: 72.99198}
+  m_LocalPosition: {x: 84.52534, y: 0, z: 9.756389}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
   - {fileID: 4561340887510318}
@@ -1402,6 +1403,23 @@ MonoBehaviour:
   inputLeft: q
   inputRight: d
   jumpSpeed: {x: 0, y: 4, z: 0}
+--- !u!114 &114726185424254574
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1657579508129558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0db4493228a4ba442a891316e3ee246f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 0}
+  characterSystem: {fileID: 0}
+  craftSystem: {fileID: 0}
+  maxHealth: 100
+  currentHealth: 60
+  currentMana: 100
 --- !u!124 &124507935080248966
 Behaviour:
   m_ObjectHideFlags: 1
